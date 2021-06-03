@@ -25,6 +25,7 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        debugShowCheckedModeBanner: false,
         backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
